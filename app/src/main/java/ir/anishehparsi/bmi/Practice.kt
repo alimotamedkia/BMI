@@ -16,7 +16,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.pointer.motionEventSpy
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -25,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun Practice(modifier: Modifier = Modifier) {
+fun Practice() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -55,6 +54,7 @@ fun Practice(modifier: Modifier = Modifier) {
         Text(text = "By continuing you agree to waze's")
         Spacer(modifier = Modifier.size(8.dp))
         Text(text = "Terms of Service and Privacy Police")
+        Spacer(modifier = Modifier.size(8.dp))
 
     }
 }
