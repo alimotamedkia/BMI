@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BMITheme {
-BMIScreen()
+Practice2()
                 }
             }
         }
